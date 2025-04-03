@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.29)
+project(calki C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(calki
+        calka.c
+        calki.c
+        heders/calki.h
+        main.c
+        functions.c
+        interface.c
+        heders/interface.h
+        utils.c
+        heders/utils.h
+        heders/
+        heders/functions.h
+        methods.c
+        heders/methods.h
+        main.c)
