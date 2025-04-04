@@ -4,9 +4,6 @@ project(calki C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(calki
-        calka.c
-        calki.c
-        heders/calki.h
         main.c
         functions.c
         interface.c

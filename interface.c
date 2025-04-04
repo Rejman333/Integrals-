@@ -38,6 +38,11 @@ void print_menu() {
 }
 
 void with_rectangle() {
-    double sum = rectangle_mean(integral_from, integral_to, function_1);
+    double sum = rectangle(integral_from, integral_to, function_1);
+    printf("Integral from: %f, to: %f is : %f\n", integral_from, integral_to, sum);
+}
+
+void with_trapeze() {
+    double sum = trapeze(integral_from, integral_to, function_1);
     printf("Integral from: %f, to: %f is : %f\n", integral_from, integral_to, sum);
 }

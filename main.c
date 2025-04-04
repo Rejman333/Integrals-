@@ -15,7 +15,9 @@ int main() {
                 printf("OPERATION_RECTANGLE\n");
                 with_rectangle();
             break;
-            case OPERATION_TRAPEZE: printf("OPERATION_TRAPEZE\n");
+            case OPERATION_TRAPEZE:
+                printf("OPERATION_TRAPEZE\n");
+                with_trapeze();
             break;
             case OPERATION_MONTE_CARLO: printf("OPERATION_MONTE_CARLO\n");
             break;

@@ -13,4 +13,5 @@ OPERATIONS get_operation();
 void print_menu();
 
 void with_rectangle();
+void with_trapeze();
 #endif //INTERFACE_H
