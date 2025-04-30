@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.29)
+cmake_minimum_required(VERSION 3.25.1)
 project(calki C)
 
 set(CMAKE_C_STANDARD 11)
@@ -14,4 +14,6 @@ add_executable(calki
         heders/functions.h
         methods.c
         heders/methods.h
-        main.c)
+        main.c
+        timer.c
+        heders/timer.h)

@@ -3,4 +3,5 @@
 
 double rectangle(double integral_from, double integral_to, double (*p_function)(double));
 double trapeze(double integral_from, double integral_to, double (*p_function)(double));
+double monte_carlo(double integral_from, double integral_to, double (*p_function)(double));
 #endif //METHODS_H
